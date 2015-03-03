@@ -1,0 +1,25 @@
+{
+  "name": "localcast",
+  "version": "0.0.1",
+  "description": "A nice web frontend for ChromeCast streaming from local servers.",
+  "main": "index.js",
+  "dependencies": {
+    "castv2-client": "~0.0.8",
+    "express": "~4.12.1",
+    "jade": "~1.9.2",
+    "mdns": "~2.2.8",
+    "minimatch": "~2.0.1",
+    "moment": "~2.9.0",
+    "numeral": "~1.5.3",
+    "request": "~2.53.0",
+    "socket.io": "~1.3.4",
+    "vid-streamer": "~1.0.0-alpha2",
+    "omdb" : "~0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikki <nospam@nikkii.us> (http://meow.tf/)",
+  "license": "BSD"
+}

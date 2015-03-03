@@ -1,0 +1,25 @@
+tr
+    td
+        span.fa.fa-folder-open
+    td
+        a.directory-link.directory-link-parent(href='#', data-path=path.relative('/storage', path.dirname(base))) ..
+    td.text-center -
+    td
+
+for directory in directories
+    tr
+        td
+            span.fa.fa-folder-open
+        td
+            a.directory-link(href='#', data-path=path.relative(base, base + directory))= directory
+        td.text-center -
+        td
+
+for file in files
+    tr
+        td
+            span.fa(class=file.icon)
+        td
+            a.file-link(href='#')= file.name
+        td.text-center= file.size
+        td.text-center= file.mtime

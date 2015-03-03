@@ -1,0 +1,15 @@
+.slider-bar{
+    display:block; width:10px; background-color:darkred; position:relative;
+}
+
+.slider, .slider-bar{
+    height:20px;
+}
+
+#playpause, #stop, #mute {
+    font-size: 20px;
+}
+
+#ctime, #ttime {
+    font-size: 10px;
+}
